@@ -1,0 +1,17 @@
+prompt --application/shared_components/user_interface/template_opt_groups
+begin
+--   Manifest
+--     THEME OPTION GROUPS: 102
+--   Manifest End
+wwv_flow_imp.component_begin (
+ p_version_yyyy_mm_dd=>'2024.11.30'
+,p_release=>'24.2.0'
+,p_default_workspace_id=>1601143731272205
+,p_default_application_id=>102
+,p_default_id_offset=>1816331208944811
+,p_default_owner=>'TEST'
+);
+null;
+wwv_flow_imp.component_end;
+end;
+/
