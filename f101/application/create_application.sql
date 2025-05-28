@@ -14,8 +14,8 @@ wwv_flow_imp.component_begin (
 wwv_imp_workspace.create_flow(
  p_id=>wwv_flow.g_flow_id
 ,p_owner=>nvl(wwv_flow_application_install.get_schema,'TEST')
-,p_name=>nvl(wwv_flow_application_install.get_application_name,'test')
-,p_alias=>nvl(wwv_flow_application_install.get_application_alias,'TEST101')
+,p_name=>nvl(wwv_flow_application_install.get_application_name,'Dev App')
+,p_alias=>nvl(wwv_flow_application_install.get_application_alias,'DEV')
 ,p_page_view_logging=>'YES'
 ,p_page_protection_enabled_y_n=>'Y'
 ,p_checksum_salt=>'EE8AAC6EF69980C91270A15CBF87937D2A1BF3DC443163074CFFF1CF0370FC38'
@@ -36,6 +36,7 @@ wwv_imp_workspace.create_flow(
 ,p_no_proxy_domains=>nvl(wwv_flow_application_install.get_no_proxy_domains,'')
 ,p_flow_version=>'Release 1.0'
 ,p_flow_status=>'AVAILABLE_W_EDIT_LINK'
+,p_flow_unavailable_text=>'This application is currently unavailable at this time.'
 ,p_exact_substitutions_only=>'Y'
 ,p_browser_cache=>'N'
 ,p_browser_frame=>'D'
@@ -46,7 +47,7 @@ wwv_imp_workspace.create_flow(
 ,p_substitution_value_01=>'test'
 ,p_file_prefix => nvl(wwv_flow_application_install.get_static_app_file_prefix,'')
 ,p_files_version=>6
-,p_version_scn=>2510173
+,p_version_scn=>2643193
 ,p_print_server_type=>'NATIVE'
 ,p_file_storage=>'DB'
 ,p_is_pwa=>'Y'
