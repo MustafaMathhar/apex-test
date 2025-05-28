@@ -21,21 +21,6 @@ wwv_flow_imp_page.create_page(
 ,p_protection_level=>'C'
 ,p_page_component_map=>'13'
 );
-wwv_flow_imp_page.create_page_plug(
- p_id=>wwv_flow_imp.id(3433872672185274)
-,p_plug_name=>'test'
-,p_region_template_options=>'#DEFAULT#'
-,p_escape_on_http_output=>'Y'
-,p_plug_template=>2674017834225413037
-,p_plug_display_sequence=>10
-,p_plug_display_point=>'REGION_POSITION_01'
-,p_plug_query_num_rows=>15
-,p_region_image=>'#APP_FILES#icons/app-icon-512.png'
-,p_attributes=>wwv_flow_t_plugin_attributes(wwv_flow_t_varchar2(
-  'expand_shortcuts', 'N',
-  'output_as', 'HTML',
-  'show_line_breaks', 'Y')).to_clob
-);
 wwv_flow_imp.component_end;
 end;
 /

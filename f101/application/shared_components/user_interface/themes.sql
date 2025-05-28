@@ -21,7 +21,7 @@ wwv_flow_imp_shared.create_theme(
 ,p_nav_bar_type=>'LIST'
 ,p_reference_id=>4072363937200175119
 ,p_is_locked=>false
-,p_current_theme_style_id=>3544795214802435419
+,p_current_theme_style_id=>1939904515211033942
 ,p_default_page_template=>4072355960268175073
 ,p_default_dialog_template=>2100407606326202693
 ,p_error_template=>2101157952850466385
