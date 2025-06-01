@@ -105,7 +105,7 @@ wwv_imp_workspace.create_flow(
 ,p_substitution_value_01=>'PRODUCTION'
 ,p_file_prefix => nvl(wwv_flow_application_install.get_static_app_file_prefix,'')
 ,p_files_version=>6
-,p_version_scn=>2766726
+,p_version_scn=>2823605
 ,p_print_server_type=>'NATIVE'
 ,p_file_storage=>'DB'
 ,p_is_pwa=>'Y'
@@ -961,7 +961,7 @@ wwv_flow_imp_shared.create_theme(
 ,p_nav_bar_type=>'LIST'
 ,p_reference_id=>4072363937200175119
 ,p_is_locked=>false
-,p_current_theme_style_id=>2721322117358710262
+,p_current_theme_style_id=>3544795214802435419
 ,p_default_page_template=>4072355960268175073
 ,p_default_dialog_template=>2100407606326202693
 ,p_error_template=>2101157952850466385
@@ -1329,4 +1329,4 @@ prompt  ...done
 
 
 
--- sqlcl_snapshot {"hash":"aa3ca17c41d0fc77dcff77631eb7bd9a19a2f5e4","type":"APEX_APPLICATIONS","name":"f104","schemaName":"JENK","sxml":""}
+-- sqlcl_snapshot {"hash":"6120e94e3d56ae232c12b8210c29efb055a50699","type":"APEX_APPLICATIONS","name":"f104","schemaName":"JENK","sxml":""}
