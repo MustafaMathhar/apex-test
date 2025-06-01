@@ -105,7 +105,7 @@ wwv_imp_workspace.create_flow(
 ,p_substitution_value_01=>'PRODUCTION'
 ,p_file_prefix => nvl(wwv_flow_application_install.get_static_app_file_prefix,'')
 ,p_files_version=>6
-,p_version_scn=>2823605
+,p_version_scn=>2831972
 ,p_print_server_type=>'NATIVE'
 ,p_file_storage=>'DB'
 ,p_is_pwa=>'Y'
@@ -1329,4 +1329,4 @@ prompt  ...done
 
 
 
--- sqlcl_snapshot {"hash":"6120e94e3d56ae232c12b8210c29efb055a50699","type":"APEX_APPLICATIONS","name":"f104","schemaName":"JENK","sxml":""}
+-- sqlcl_snapshot {"hash":"756e16b3de7ce542f83630a7c84446a12dc7e2f2","type":"APEX_APPLICATIONS","name":"f104","schemaName":"JENK","sxml":""}

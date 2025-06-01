@@ -1,9 +1,9 @@
 ---
-# ====== Application: PRODUCTION =============================
-id: 104
+# ====== Application: DEV ====================================
+id: 105
 identification: 
-  name: PRODUCTION
-  alias: PRODUCTION
+  name: DEV
+  alias: DEV
   version: Release 1.0
 
 row-search: 
@@ -31,7 +31,7 @@ advanced:
 
 authentication: 
   public-user: APEX_PUBLIC_USER
-  authentication-scheme: Oracle APEX Accounts # 1892537277037831
+  authentication-scheme: Oracle APEX Accounts # 2009306937574745
 
 authorization: 
   source-for-role-or-group-schemes: Access Control User Role Assignments
@@ -69,7 +69,7 @@ character-value-comparison:
 
 logo: 
   type: Text
-  text: PRODUCTION
+  text: DEV
 
 progressive-web-app: 
   enable: true
@@ -95,11 +95,11 @@ navigation-menu:
   - t-TreeNav--styleA
   - js-navCollapsed--hidden
   list-position: Side
-  list: Navigation Menu # 1893351180037842
+  list: Navigation Menu # 2010167359574764
 
 navigation-bar: 
   implementation: List
-  list: Navigation Bar # 1894476220037929
+  list: Navigation Bar # 2011273908574873
   list-template: Navigation Bar
   template-options: 
   - '#DEFAULT#'
@@ -115,7 +115,7 @@ attributes:
   auto-dismiss-success-messages: false
 
 subscription: 
-  version-number: 2831972
+  version-number: 2831528
 
 substitutions: 
 - # ====== Substitution: APP_NAME ==============================
@@ -124,74 +124,74 @@ substitutions:
     name: APP_NAME
 
   value: 
-    static-value: PRODUCTION
+    static-value: DEV
 
 component-settings: 
 - # ====== Component Setting: NATIVE_DISPLAY_SELECTOR ==========
-  id: 1888184589037809
+  id: 2004826130574732
   identification: 
     name: NATIVE_DISPLAY_SELECTOR
     type: Region
 
   subscription: 
-    version-number: 2766638
+    version-number: 2831459
 
 - # ====== Component Setting: NATIVE_OPEN_AI_ASSISTANT =========
-  id: 1888364462037818
+  id: 2005163129574735
   identification: 
     name: NATIVE_OPEN_AI_ASSISTANT
     type: Dynamic Action
 
   subscription: 
-    version-number: 2766638
+    version-number: 2831462
 
 - # ====== Component Setting: NATIVE_DATE_PICKER_APEX ==========
-  id: 1888620660037819
+  id: 2005459309574735
   identification: 
     name: NATIVE_DATE_PICKER_APEX
     type: Item
 
   subscription: 
-    version-number: 2766638
+    version-number: 2831462
 
 - # ====== Component Setting: NATIVE_GEOCODED_ADDRESS ==========
-  id: 1888904919037820
+  id: 2005794332574736
   identification: 
     name: NATIVE_GEOCODED_ADDRESS
     type: Item
 
   subscription: 
-    version-number: 2766638
+    version-number: 2831462
 
 - # ====== Component Setting: NATIVE_MAP_REGION ================
-  id: 1889211564037821
+  id: 2006035081574736
   identification: 
     name: NATIVE_MAP_REGION
     type: Region
 
   subscription: 
-    version-number: 2766638
+    version-number: 2831462
 
 - # ====== Component Setting: NATIVE_BOSS ======================
-  id: 1889573254037821
+  id: 2006374828574738
   identification: 
     name: NATIVE_BOSS
     type: REST Data Source
 
   subscription: 
-    version-number: 2766638
+    version-number: 2831462
 
 - # ====== Component Setting: NATIVE_ADFBC =====================
-  id: 1889816717037822
+  id: 2006616485574738
   identification: 
     name: NATIVE_ADFBC
     type: REST Data Source
 
   subscription: 
-    version-number: 2766638
+    version-number: 2831462
 
 - # ====== Component Setting: NATIVE_GEOCODING =================
-  id: 1890131787037823
+  id: 2006956548574739
   identification: 
     name: NATIVE_GEOCODING
     type: Process
@@ -200,59 +200,59 @@ component-settings:
     attribute-1: RELAX_HOUSE_NUMBER
 
   subscription: 
-    version-number: 2766638
+    version-number: 2831462
 
 - # ====== Component Setting: NATIVE_SINGLE_CHECKBOX ===========
-  id: 1890427939037824
+  id: 2007293843574739
   identification: 
     name: NATIVE_SINGLE_CHECKBOX
     type: Item
 
   subscription: 
-    version-number: 2766638
+    version-number: 2831462
 
 - # ====== Component Setting: NATIVE_IR ========================
-  id: 1890757890037824
+  id: 2007542428574739
   identification: 
     name: NATIVE_IR
     type: Region
 
   subscription: 
-    version-number: 2766638
+    version-number: 2831462
 
 - # ====== Component Setting: NATIVE_SELECT_MANY ===============
-  id: 1891012889037825
+  id: 2007835729574740
   identification: 
     name: NATIVE_SELECT_MANY
     type: Item
 
   subscription: 
-    version-number: 2766638
+    version-number: 2831462
 
 - # ====== Component Setting: NATIVE_COLOR_PICKER ==============
-  id: 1891387110037826
+  id: 2008195457574741
   identification: 
     name: NATIVE_COLOR_PICKER
     type: Item
 
   subscription: 
-    version-number: 2766638
+    version-number: 2831462
 
 - # ====== Component Setting: NATIVE_STAR_RATING ===============
-  id: 1891646675037826
+  id: 2008481140574741
   identification: 
     name: NATIVE_STAR_RATING
     type: Item
 
   subscription: 
-    version-number: 2766638
+    version-number: 2831462
 
 - # ====== Component Setting: NATIVE_YES_NO ====================
-  id: 1891935417037826
+  id: 2008721356574742
   identification: 
     name: NATIVE_YES_NO
     type: Item
 
   subscription: 
-    version-number: 2766638
+    version-number: 2831462
 
