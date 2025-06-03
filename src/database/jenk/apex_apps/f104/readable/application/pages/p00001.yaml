@@ -4,7 +4,7 @@ id: 1
 identification: 
   name: Home
   alias: HOME
-  title: PRODUCTION
+  title: DEV
 
 appearance: 
   page-mode: Normal
@@ -37,10 +37,10 @@ server-cache:
   caching: Disabled
 
 regions: 
-- # ====== Region: PRODUCTION ==================================
-  id: 1905966376038067
+- # ====== Region: DEV =========================================
+  id: 4049349242212541
   identification: 
-    name: PRODUCTION
+    name: DEV
     type: Static Content
 
   layout: 

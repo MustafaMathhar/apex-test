@@ -1,18 +1,18 @@
 ---
 - # ====== List: Navigation Menu ===============================
-  id: 1893351180037842
+  id: 4036916920212191
   identification: 
     name: Navigation Menu
 
   subscription: 
-    version-number: 2766710
+    version-number: 2831516
 
   source: 
     type: Static Values
 
   entries: 
   - # ====== Entry: Home =========================================
-    id: 1905055058038057
+    id: 4048463592212528
     label: 
       label: Home
 
@@ -37,19 +37,19 @@
       translatable: false
 
 - # ====== List: Navigation Bar ================================
-  id: 1894476220037929
+  id: 4038023469212300
   identification: 
     name: Navigation Bar
 
   subscription: 
-    version-number: 2766726
+    version-number: 2831528
 
   source: 
     type: Static Values
 
   entries: 
   - # ====== Entry: &APP_USER. ===================================
-    id: 1906520509038088
+    id: 4049947105212578
     label: 
       label: '&APP_USER.'
 
@@ -73,13 +73,13 @@
       2.: has-username
 
   - # ====== Entry: --- ==========================================
-    id: 1907008042038090
+    id: 4050416442212581
     label: 
       label: '---'
 
     layout: 
       sequence: 20
-      parent-entry: '&APP_USER.' # 1906520509038088
+      parent-entry: '&APP_USER.' # 4049947105212578
 
     is-current: 
       type: Target Page
@@ -97,7 +97,7 @@
       type: User is Authenticated (not public)
 
   - # ====== Entry: Sign Out =====================================
-    id: 1907450995038091
+    id: 4050790442212586
     label: 
       label: Sign Out
 
@@ -106,7 +106,7 @@
 
     layout: 
       sequence: 30
-      parent-entry: '&APP_USER.' # 1906520509038088
+      parent-entry: '&APP_USER.' # 4049947105212578
 
     is-current: 
       type: Target Page
