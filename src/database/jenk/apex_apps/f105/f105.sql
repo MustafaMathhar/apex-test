@@ -37,7 +37,7 @@ prompt APPLICATION 105 - DEV
 --   Flashback:       0
 --   Export Type:     Application Export
 --     Pages:                      3
---       Items:                    3
+--       Items:                    4
 --       Processes:                4
 --       Regions:                  2
 --       Buttons:                  1
@@ -105,7 +105,7 @@ wwv_imp_workspace.create_flow(
 ,p_substitution_value_01=>'DEV'
 ,p_file_prefix => nvl(wwv_flow_application_install.get_static_app_file_prefix,'')
 ,p_files_version=>6
-,p_version_scn=>2831528
+,p_version_scn=>2923028
 ,p_print_server_type=>'NATIVE'
 ,p_file_storage=>'DB'
 ,p_is_pwa=>'Y'
@@ -954,7 +954,7 @@ wwv_flow_imp_shared.create_theme(
 ,p_nav_bar_type=>'LIST'
 ,p_reference_id=>4072363937200175119
 ,p_is_locked=>false
-,p_current_theme_style_id=>2721322117358710262
+,p_current_theme_style_id=>1939904515211033942
 ,p_default_page_template=>4072355960268175073
 ,p_default_dialog_template=>2100407606326202693
 ,p_error_template=>2101157952850466385
@@ -1096,6 +1096,21 @@ wwv_flow_imp_page.create_page_plug(
   'expand_shortcuts', 'N',
   'output_as', 'HTML',
   'show_line_breaks', 'Y')).to_clob
+);
+wwv_flow_imp_page.create_page_item(
+ p_id=>wwv_flow_imp.id(2045185698104001)
+,p_name=>'DEV'
+,p_item_sequence=>10
+,p_prompt=>'Dev'
+,p_display_as=>'NATIVE_TEXT_FIELD'
+,p_cSize=>30
+,p_field_template=>1609121967514267634
+,p_item_template_options=>'#DEFAULT#'
+,p_attributes=>wwv_flow_t_plugin_attributes(wwv_flow_t_varchar2(
+  'disabled', 'N',
+  'submit_when_enter_pressed', 'N',
+  'subtype', 'TEXT',
+  'trim_spaces', 'BOTH')).to_clob
 );
 end;
 /
@@ -1322,4 +1337,4 @@ prompt  ...done
 
 
 
--- sqlcl_snapshot {"hash":"772e7be6103c1f1b456193b5c981895169861c72","type":"APEX_APPLICATIONS","name":"f105","schemaName":"JENK","sxml":""}
+-- sqlcl_snapshot {"hash":"5a43167370eccc07a297a5672141bb31d1ef8a25","type":"APEX_APPLICATIONS","name":"f105","schemaName":"JENK","sxml":""}
