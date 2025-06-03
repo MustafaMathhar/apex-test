@@ -5,7 +5,7 @@
     "version" : "25.1.1.0"
   },
   "schemas" : [ "JENK" ],
-  "lastReleaseVersion" : "1.0.0",
+  "lastReleaseVersion" : "2.0",
   "export" : {
     "format" : {
       "enable" : true
